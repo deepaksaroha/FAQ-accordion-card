@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+h1, h2, h3, h4, h5, h6, p, body, hr{
+    margin: 0;
+}
+
+hr{
+    width: 100%;
+}
+
+img{
+    display: block;
+}
+
+.cover{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 1000px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.sections{
+    position: relative;
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bg-sec{
+    position: absolute;
+}
+
+.bg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding-right: 80px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.bgiab{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.pspa{
+    position: relative;
+    padding: 80px 80px 80px 0;
+    overflow: hidden;
+}
+
+.bg-img{
+    position: absolute;
+    right: 0;
+    bottom: -25%;
+}
+
+.pit-sec{
+    position: relative;
+}
+
+.wc-img{
+    float: right;
+}
+
+.cube-img{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -30%);
+}
+
+.sec2{
+    padding: 80px 80px 80px 0;
+}
+
+.head{
+    margin-bottom: 30px;
+}
+
+.que{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+hr{
+    margin: 15px 0;
+}
+
+.ans{
+    margin-top: 10px;
+}
+
+.ansvis{
+    display: block;
+}
+
+.anshid{
+    display: none;
+}
+
+.arup{
+    transform: rotate(180deg);
+}
