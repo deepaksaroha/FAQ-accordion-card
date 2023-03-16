@@ -65,20 +65,26 @@ img{
     overflow: hidden;
 }
 
-.bg-img{
+.bg-imgd{
     position: absolute;
     right: 0;
     bottom: -25%;
+}
+
+.bg-imgm{
+    display: none;
 }
 
 .pit-sec{
     position: relative;
 }
 
-.wc-img{
+.wc-imgd{
     float: right;
 }
-
+.wc-imgm{
+    display: none;
+}
 .cube-img{
     position: absolute;
     top: 50%;
@@ -99,6 +105,15 @@ img{
     align-items: center;
 }
 
+.que:hover{
+    cursor: pointer;
+    color: hsl(14, 88%, 65%);
+}
+
+.que-open{
+    font-weight: bold;
+}
+
 hr{
     margin: 15px 0;
 }
@@ -117,4 +132,58 @@ hr{
 
 .arup{
     transform: rotate(180deg);
+}
+
+@media screen and (max-width: 375px) {
+    .container{
+        width: unset;
+        flex-direction: column;
+        padding: 0 20px 40px 20px;
+        box-sizing: border-box;
+    }
+    .pspa{
+        padding: unset;
+    }
+    .sections{
+        width: unset;
+    }
+    
+    .sec2{
+        padding: unset;
+    }
+    .bg-imgd{
+        display: none;
+    }
+    .bg-imgm{
+        display: block;
+        position: absolute;
+        width: 100%;
+    }
+    .wc-imgd{
+        display: none;
+    }
+    .wc-imgm{
+        position: relative;
+        height: 100%;
+        width: 100%;
+        display: block;
+        top: -140px;
+    }
+    .cube-img{
+        display: none;
+    }
+    .bg{
+        padding-right: unset;
+        overflow: unset;
+        position: relative;
+        top: -10px;
+    }
+
+    .pit-sec{
+        padding: 10px;
+    }
+
+    .pspa{
+        overflow: unset;
+    }
 }
